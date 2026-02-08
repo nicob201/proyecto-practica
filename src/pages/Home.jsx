@@ -1,11 +1,9 @@
 const Home = () => {
   return (
-    <main style={{ padding: "2rem" }}>
-      <h1>Bienvenido al Ecommerce</h1>
-      <p>
-        Este es un proyecto desarrollado como práctica profesionalizante
-      </p>
-    </main>
+    <section>
+      <h2>Bienvenido a TechStore</h2>
+      <p>Tu tienda de tecnología favorita</p>
+    </section>
   );
 };
 
