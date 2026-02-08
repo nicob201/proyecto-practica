@@ -1,0 +1,44 @@
+.benefits {
+  margin-top: 6rem;
+  background: #ffffff;
+  padding: 4rem 1.5rem;
+}
+
+.benefits-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.benefit-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+
+  .icon {
+    font-size: 1.6rem;
+    color: #1e5bff;
+    margin-top: 0.2rem;
+  }
+
+  h4 {
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: #6b7280;
+    line-height: 1.4;
+  }
+}
+
+/* @media (max-width: 900px) {
+  .benefits-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+} */

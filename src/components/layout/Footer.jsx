@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer style={styles.footer}>
-      <p>© 2026 TechStore – Proyecto académico</p>
+      <p>© 2026 TechStore – Develop by Nicolas Boscasso</p>
     </footer>
   );
 };
