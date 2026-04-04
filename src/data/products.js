@@ -1,4 +1,4 @@
-export const products = [
+/* export const products = [
   {
     id: 1,
     title: "Auriculares Inalámbricos",
@@ -21,3 +21,4 @@ export const products = [
     description: "Teclado mecánico diseñado para jugadores."
   }
 ];
+ */

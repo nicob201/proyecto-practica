@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import FeaturedCategories from "../components/home/FeaturedCategories";
 import Benefits from "../components/home/Benefits";
 import "./Home.scss";
+import Button from "../components/ui/Button";
 
 // Componente pagina de inicio
 const Home = () => {
@@ -17,11 +18,10 @@ const Home = () => {
             La evolucion del <span>Juego</span>
           </h1>
           <p>
-            Proba la nueva Asus ROG Zephyrus G14, la laptop gamer mas potente y liviana del mercado
+            Proba la nueva Asus ROG Zephyrus G14, la laptop gamer mas potente y
+            liviana del mercado
           </p>
-          <button className="primary-btn" onClick={() => navigate("/products")}>
-            Comprar ahora
-          </button>
+          <Button text="Comprar Ahora" onClick={() => navigate("/products")} />
         </div>
 
         <div className="hero-image">
