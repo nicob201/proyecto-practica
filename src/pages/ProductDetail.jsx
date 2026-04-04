@@ -13,13 +13,13 @@ const ProductDetail = () => {
     );
 
     if (!product) {
-        return <p>Product not found</p>;
+        return <p>Producto no encontrado</p>;
     }
 
     return (
         <section className="product-detail">
             <button className="back-button" onClick={() => navigate("/products")}>
-                ← Back to store
+                ← Volver a tienda
             </button>
 
             <div className="product-detail-content">

@@ -6,48 +6,48 @@ const FeaturedCategories = () => {
         <section className="featured-categories">
             <div className="section-header">
                 <div>
-                    <h2>Featured Categories</h2>
-                    <p>View our products</p>
+                    <h2>Categorias Destacadas</h2>
+                    <p>Explora nuestras categorias más populares</p>
                 </div>
 
-                <button className="view-all">View All Categories →</button>
+                <button className="view-all">Ver Todas las Categorias →</button>
             </div>
 
             <div className="categories-grid">
                 <div className="category-card">
                     <div className="icon">💻</div>
                     <h3>Laptops</h3>
-                    <p>High-performance workstations</p>
+                    <p>Notebooks super potentes</p>
                 </div>
 
                 <div className="category-card">
                     <div className="icon">🎧</div>
                     <h3>Audio</h3>
-                    <p>Studio quality sound equipment</p>
+                    <p>Equipo de sonido de calidad profesional</p>
                 </div>
 
                 <div className="category-card">
                     <div className="icon">⌚</div>
-                    <h3>Wearables</h3>
-                    <p>Stay connected on the go</p>
+                    <h3>Relojes Inteligentes</h3>
+                    <p>Para que estes siempre conectado</p>
                 </div>
 
                 <div className="category-card">
                     <div className="icon">📱</div>
                     <h3>Smartphones</h3>
-                    <p>Latest models and deals</p>
+                    <p>Dispositivos móviles de última generación</p>
                 </div>
 
                 <div className="category-card">
                     <div className="icon">🎮</div>
                     <h3>Gaming</h3>
-                    <p>Consoles, accessories & more</p>
+                    <p>Consolas, accesorios y mas</p>
                 </div>
 
                 <div className="category-card">
                     <div className="icon">📸</div>
-                    <h3>Cameras</h3>
-                    <p>Professional & enthusiast gear</p>
+                    <h3>Camaras</h3>
+                    <p>Equipo profesional y de entusiastas</p>
                 </div>
             </div>
         </section>

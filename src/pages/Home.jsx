@@ -11,17 +11,16 @@ const Home = () => {
     <>
       <section className="hero">
         <div className="hero-content">
-          <span className="badge">New Release</span>
+          <span className="badge">Nuevo lanzamiento</span>
           {/* titulo principal con marca en negrita */}
           <h1>
-            Evolution of <span>Gaming</span>
+            La evolucion del <span>Juego</span>
           </h1>
           <p>
-            Experience the new Notebook 15 with unmatched speed,
-            stunning display, and all-day battery life.
+            Proba la nueva Asus ROG Zephyrus G14, la laptop gamer mas potente y liviana del mercado
           </p>
           <button className="primary-btn" onClick={() => navigate("/products")}>
-            Shop Now
+            Comprar ahora
           </button>
         </div>
 

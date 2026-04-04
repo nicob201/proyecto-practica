@@ -5,7 +5,7 @@ import ProductList from "../components/products/ProductList";
 const Products = () => {
     return (
         <section>
-            <h2>Products</h2>
+            <h2>Productos</h2>
             <ProductList products={products} />
         </section>
     );

@@ -7,28 +7,27 @@ const Benefits = () => {
             <div className="benefits-container">
                 <div className="benefit-item">
                     <div className="icon">🚚</div>
-                    <h4>Free Shipping</h4>
+                    <h4>Envios Gratis!</h4>
                     <p>
-                        Free shipping on all orders
-                        over $500
+                        Envio gratis en todos los pedidos
+                        desde $50000
                     </p>
                 </div>
 
                 <div className="benefit-item">
                     <div className="icon">🛡️</div>
-                    <h4>2-Year Warranty</h4>
+                    <h4>2 Años De Garantia</h4>
                     <p>
-                        Peace of mind guaranteed with our
-                        comprehensive hardware protection plans
+                        Garantía de 2 años en todos nuestros productos
                     </p>
                 </div>
 
                 <div className="benefit-item">
                     <div className="icon">🎧</div>
-                    <h4>Expert Support</h4>
+                    <h4>Soporte Experto</h4>
                     <p>
-                        Dedicated 24/7 technical assistance from
-                        our team of specialists
+                        Asistencia técnica dedicada 24/7 de
+                        nuestro equipo de especialistas
                     </p>
                 </div>
             </div>
