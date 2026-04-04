@@ -1,5 +1,6 @@
 import "./FeaturedCategories.scss";
 
+// Componente que muestra las categorias destacadas en la pagina de inicio
 const FeaturedCategories = () => {
     return (
         <section className="featured-categories">

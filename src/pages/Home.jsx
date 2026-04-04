@@ -3,6 +3,7 @@ import FeaturedCategories from "../components/home/FeaturedCategories";
 import Benefits from "../components/home/Benefits";
 import "./Home.scss";
 
+// Componente pagina de inicio
 const Home = () => {
   const navigate = useNavigate();
 
@@ -11,6 +12,7 @@ const Home = () => {
       <section className="hero">
         <div className="hero-content">
           <span className="badge">New Release</span>
+          {/* titulo principal con marca en negrita */}
           <h1>
             Evolution of <span>Gaming</span>
           </h1>

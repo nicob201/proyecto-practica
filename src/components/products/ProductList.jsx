@@ -1,21 +1,16 @@
 import ProductCard from "./ProductCard";
+import { products } from "../../data/products";
+import "./ProductList.scss";
 
-const ProductList = ({ products }) => {
+// Componente que renderiza la lista de productos, recibe los productos como props
+const ProductList = () => {
     return (
-        <section style={styles.grid}>
-            {products.map(product => (
+        <section className="product-list">
+            {products.map((product) => (
                 <ProductCard key={product.id} product={product} />
             ))}
         </section>
     );
-};
-
-const styles = {
-    grid: {
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
-        gap: "1.5rem",
-    },
 };
 
 export default ProductList;

@@ -1,6 +1,7 @@
 import AppRouter from "./routes/AppRouter";
-import "./styles/global.css";
+import "./styles/global.scss";
 
+// Funcion para renderizar el componente principal de la aplicacion
 function App() {
   return <AppRouter />;
 }

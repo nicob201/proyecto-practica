@@ -2,10 +2,12 @@ import { useParams, useNavigate } from "react-router-dom";
 import { products } from "../data/products";
 import "./ProductDetail.scss";
 
+// Pagina de detalle del producto, muestra la informacion del producto seleccionado
 const ProductDetail = () => {
     const { id } = useParams();
     const navigate = useNavigate();
 
+    // Busca el producto por su id
     const product = products.find(
         (item) => item.id === Number(id)
     );

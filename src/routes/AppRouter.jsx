@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Products from "../pages/Products";
 import ProductDetail from "../pages/ProductDetail";
 
+// Componente que define las rutas
 const AppRouter = () => {
   return (
     <BrowserRouter>

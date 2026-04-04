@@ -1,5 +1,6 @@
 import "./Benefits.scss";
 
+// Componente que muestra en inicio los beneficios de comprar en la tienda
 const Benefits = () => {
     return (
         <section className="benefits">

@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import "./ProductCard.scss";
 
+// Renderiza una card de producto, recibe el producto como props
 const ProductCard = ({ product }) => {
     const navigate = useNavigate();
 
+    // Al hacer click en la card, navega a la pagina de detalle del producto
     const handleClick = () => {
         navigate(`/products/${product.id}`);
     };
