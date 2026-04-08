@@ -3,6 +3,7 @@ import FeaturedCategories from "../components/home/FeaturedCategories";
 import Benefits from "../components/home/Benefits";
 import "./Home.scss";
 import Button from "../components/ui/Button";
+import Newsletter from "../components/home/Newsletter";
 
 // Componente pagina de inicio
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
             Proba la nueva Asus ROG Zephyrus G14, la laptop gamer mas potente y
             liviana del mercado
           </p>
-          <Button text="Comprar Ahora" onClick={() => navigate("/products")} />
+          <Button text="Comprar Ahora" onClick={() => navigate("/products")} className="home-button"/>
         </div>
 
         <div className="hero-image">
@@ -34,6 +35,7 @@ const Home = () => {
 
       <FeaturedCategories />
       <Benefits />
+      <Newsletter />
     </>
   );
 };

@@ -1,9 +1,9 @@
 import "./Button.scss";
 
 // Componente de boton reutilizable, recibe texto y funcion onClick como props
-export const Button = ({ text, onClick }) => {
+export const Button = ({ text, onClick, className }) => {
   return (
-    <button className="custom-button" onClick={onClick}>
+    <button className={`btn-global ${className || ""}`} onClick={onClick}>
       {text}
     </button>
   );

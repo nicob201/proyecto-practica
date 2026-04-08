@@ -4,9 +4,6 @@
 }
 
 .section-header {
-  max-width: 1200px;
-  margin: 0 auto 3rem;
-
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -32,9 +29,6 @@
 }
 
 .categories-grid {
-  max-width: 1200px;
-  margin: 0 auto;
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;

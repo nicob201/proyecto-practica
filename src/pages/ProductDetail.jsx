@@ -66,11 +66,11 @@ const ProductDetail = () => {
           <p className="price">Precio: ${product.price}</p>
           <div className="quantity-control">
             <p>Cantidad:</p>
-            <Button text="-" onClick={decreaseQuantity} />
+            <Button text="-" onClick={decreaseQuantity} className="quantity-button"/>
             <span>{quantity}</span>
-            <Button text="+" onClick={increaseQuantity} />
+            <Button text="+" onClick={increaseQuantity} className="quantity-button"/>
           </div>
-          <Button text="Agregar al Carrito" onClick={handleAddToCart} />
+          <Button text="Agregar al Carrito" onClick={handleAddToCart} className="add-to-cart-button"/>
         </div>
       </div>
     </section>

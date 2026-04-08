@@ -1,0 +1,63 @@
+.newsletter-section {
+    background-color: #f8f9fa;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    
+    /* Solucion Chat gpt al scroll horizontal, la sombra no genera scroll */
+    box-shadow: 0 0 0 100vmax #f8f9fa;
+    clip-path: inset(0 -100vmax); 
+}
+
+.newsletter-content {
+    text-align: center;
+    width: 100%;
+
+    h2 {
+        font-size: 2rem;
+        color: #111;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        color: #888;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        line-height: 1.5;
+    }
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+
+    input {
+        flex: 1;
+        max-width: 350px;
+        padding: 0.75rem 1rem;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        font-size: 1rem;
+        outline: none;
+        transition: border-color 0.2s;
+
+        &:focus {
+            border-color: #1e5bff;
+        }
+    }
+
+    .subscribe-btn {
+        background-color: #111;
+        color: white;
+        border-radius: 6px;
+        padding: 0.75rem 1.5rem;
+        font-weight: 600;
+
+        &:hover {
+            background-color: #333;
+        }
+    }
+}
