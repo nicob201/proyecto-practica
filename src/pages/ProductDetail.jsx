@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
 import { useProduct } from "../hooks/useProduct";
 /* import { products } from "../data/products"; */
@@ -54,6 +54,15 @@ const ProductDetail = () => {
       <button className="back-button" onClick={() => navigate("/products")}>
         ← Volver a tienda
       </button>
+      <nav className="breadcrumbs">
+        <Link to="/">Inicio</Link>
+        <span className="separator">/</span>
+        <Link to="/products">Productos</Link>
+        <span className="separator">/</span>
+        <span className="breadcrumb-category">{product.category}</span>
+        <span className="separator">/</span>
+        <span className="breadcrumb-current">{product.title}</span>
+      </nav>
 
       <div className="product-detail-content">
         <div className="product-detail-image">
@@ -66,11 +75,23 @@ const ProductDetail = () => {
           <p className="price">Precio: ${product.price}</p>
           <div className="quantity-control">
             <p>Cantidad:</p>
-            <Button text="-" onClick={decreaseQuantity} className="quantity-button"/>
+            <Button
+              text="-"
+              onClick={decreaseQuantity}
+              className="quantity-button"
+            />
             <span>{quantity}</span>
-            <Button text="+" onClick={increaseQuantity} className="quantity-button"/>
+            <Button
+              text="+"
+              onClick={increaseQuantity}
+              className="quantity-button"
+            />
           </div>
-          <Button text="Agregar al Carrito" onClick={handleAddToCart} className="add-to-cart-button"/>
+          <Button
+            text="Agregar al Carrito"
+            onClick={handleAddToCart}
+            className="add-to-cart-button"
+          />
         </div>
       </div>
     </section>

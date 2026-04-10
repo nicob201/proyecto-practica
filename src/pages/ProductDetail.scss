@@ -10,13 +10,13 @@
   border: none;
   font-size: 1rem;
   color: #666;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   cursor: pointer;
   align-self: flex-start;
 
   &:hover {
-    color: #111;
-    text-decoration: underline;
+    color: #1e5bff;
+    cursor: pointer;
   }
 }
 
@@ -107,7 +107,7 @@
   background-color: #111;
   color: white;
   border: none;
-  padding: 15px 30px; 
+  padding: 15px 30px;
   border-radius: 30px;
   cursor: pointer;
   font-size: 1rem;
@@ -117,5 +117,42 @@
 
   &:hover {
     background-color: #333;
+  }
+}
+
+.breadcrumbs {
+  align-self: flex-start;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 2rem auto;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+
+  a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #1e5bff;
+      text-decoration: underline;
+    }
+  }
+
+  .separator {
+    font-size: 1rem;
+    color: #666;
+    margin: 0 0.3rem;
+  }
+
+  .breadcrumb-category {
+    color: #666;
+    text-transform: capitalize;
+  }
+
+  .breadcrumb-current {
+    color: #111;
+    font-weight: 600;
   }
 }
