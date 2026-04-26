@@ -1,16 +1,66 @@
-# React + Vite
+# 🛒 E-Commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Demo de e-commerce construida con React y Vite como proyecto académico.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚡ Tecnologías
 
-## React Compiler
+| Herramienta | Descripción |
+|-------------|-------------|
+| ⚛️ React 18 + Vite | Framework UI |
+| 🎨 CSS vanilla | Estilos |
+| 🔥 Supabase | Backend (DB + Auth) |
+| 🧭 React Router DOM | Navegación |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📦 Catálogo de productos con filtrado  
+- 🔍 Detalle de producto individual  
+- 🛒 Carrito de compras (añadir, eliminar, modificar cantidad)  
+- 📧 Página de contacto  
+- 📬 Newsletter  
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+src/
+├── components/     # Componentes reutilizables
+│   ├── home/       # Componentes específicos de Home
+│   ├── layout/    # Navbar, Footer, Layout
+│   ├── products/  # ProductCard, ProductList
+│   └── ui/        # Componentes UI (Button)
+├── context/       # Context API (Carrito)
+├── data/          # Datos estáticos
+├── hooks/         # Custom hooks
+├── pages/         # Páginas de la app
+├── routes/        # Configuración de rutas
+├── services/     # Servicios (Supabase)
+└── styles/       # Estilos globales
+```
+
+---
+
+## 🚀 Ejecutar el Proyecto
+
+```bash
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
+npm run dev
+```
+
+> 💡 El servidor se iniciara en `http://localhost:5173`
+
+---
+
+## 👤 Autor
+
+Proyecto desarrollado por Nicolas Boscasso como práctica profesional para academia Teclab.
+
+---

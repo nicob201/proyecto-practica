@@ -71,3 +71,63 @@
   background-color: #f8f9fa;
   border-radius: 12px;
 }
+
+/* paginación */
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+
+  h3 {
+    margin: 0;
+    border-bottom: none !important;
+  }
+
+  .clear-btn {
+    background: none;
+    border: none;
+    color: #1e5bff;
+    font-size: 0.8rem;
+    padding: 0;
+
+    &:hover {
+      color: #111;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+
+  button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+
+    &:hover:not(:disabled) {
+      background-color: #f0f0f0;
+      border-color: #ccc;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    &.active {
+      background-color: #111;
+      color: white;
+      border-color: #111;
+    }
+  }
+}
